@@ -1,0 +1,7 @@
+board: /var/folders/m7/flsdr61n7rb4vgt6hv5_f9t80000gp/T//fm-lab.9FN7tj/.lavish/bearings-board.html
+session:
+  status: opened
+session: live
+served: /var/folders/m7/flsdr61n7rb4vgt6hv5_f9t80000gp/T//fm-lab.9FN7tj/.lavish/bearings-board.html
+bound: lavish-a24c4271c323c5fc
+armed: lavish-a24c4271c323c5fc

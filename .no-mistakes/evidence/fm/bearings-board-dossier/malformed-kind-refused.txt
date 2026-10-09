@@ -1,0 +1,4 @@
+$ fm-bearings-board.sh build bad.json   # links[0].kind = ["mr","pr"]
+fm-bearings-board: board data does not satisfy fm-bearings-board.v1: /var/folders/m7/flsdr61n7rb4vgt6hv5_f9t80000gp/T//fm-lab.9FN7tj/bad.json
+rc=1
+board unchanged: yes

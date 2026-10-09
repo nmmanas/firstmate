@@ -1,0 +1,17 @@
+ok - an underway row leads with the task name and still reports its run status
+ok - an underway identifier label is not replaced by run status
+ok - charted next renders the most recently filed work first
+ok - charted rows with no filed date follow the dated rows in payload order
+ok - a warning row badges needs repair while queued work keeps waiting
+ok - the charted next count counts queued work only, and still renders warnings
+ok - a warning-only board reports nothing queued and still shows the warning
+ok - omitted warnings remain separate from omitted queued work
+ok - an omitted kind renders exactly as queued work always did
+ok - board text links URLs and existing reports in new tabs, a missing report stays text, and markup stays text
+ok - decision option labels link their URLs in new tabs and keep markup as text
+ok - a report preview keeps balanced parentheses in markdown and bare link targets and drops trailing punctuation
+ok - a report preview renders headings, inline marks, links, nested lists, tables, and code, with markup kept as text
+ok - every Captain's Call card offers free text, with freeform_hint as its placeholder
+ok - a credential card warns against pasting a secret, and freeform_hint still wins
+ok - a card's Context box shows background, stakes, typed links with state and previews, history, and its age
+ok - a card without dossier fields shows its about, or merge detail and PR, in the Context box, and collapses with none
