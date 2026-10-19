@@ -1,0 +1,15 @@
+ok - the production default busy-turn-age bound is 3600s (5min under does not wedge, 66min over does)
+first wake output: check: process-event result captured: procevent:delivery-src:1|
+r1 after drain+3 reconciles: marker=[pending:handling:18101.1792447364.wlBuRC] copies=2
+r1 quiet watcher: rewoke=0 out=[] marker=[acked:handling:18101.1792447364.wlBuRC] copies=1
+r1 downtime restart woke once: out=[check: rearm-resurface|] marker=[announced:downtime:19522.1792447370.Ct5vmb]
+r2 after drain+3 reconciles: marker=[announced:handling:19522.1792447370.Ct5vmb] copies=1
+r2 quiet watcher: rewoke=0 out=[] marker=[acked:handling:19522.1792447370.Ct5vmb] copies=1
+r2 downtime restart woke once: out=[check: rearm-resurface|] marker=[announced:downtime:25541.1792447377.wICwd4]
+r3 after drain+3 reconciles: marker=[announced:handling:25541.1792447377.wICwd4] copies=1
+r3 quiet watcher: rewoke=0 out=[] marker=[acked:handling:25541.1792447377.wICwd4] copies=1
+r3 downtime restart woke once: out=[check: rearm-resurface|] marker=[announced:downtime:31226.1792447383.ixM2Ia]
+r4 after drain+3 reconciles: marker=[announced:handling:31226.1792447383.ixM2Ia] copies=1
+r4 quiet watcher: rewoke=0 out=[] marker=[acked:handling:31226.1792447383.ixM2Ia] copies=1
+r4 downtime restart woke once: out=[check: rearm-resurface|] marker=[announced:downtime:35933.1792447391.Qs5DCL]
+ok - 4 rounds: every genuine downtime resurfaced exactly once; no empty rearm-resurface loop

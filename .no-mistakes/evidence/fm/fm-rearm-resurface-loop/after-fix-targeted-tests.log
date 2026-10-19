@@ -1,0 +1,4 @@
+ok - the production default busy-turn-age bound is 3600s (5min under does not wedge, 66min over does)
+ok - a captured process-event result wakes a healthy watcher proactively, with no manual drain
+ok - an unacknowledged process-event result re-drains until handling is acknowledged
+ok - an acknowledged but unhandled process-event result waits for the next drain without a recovery loop
