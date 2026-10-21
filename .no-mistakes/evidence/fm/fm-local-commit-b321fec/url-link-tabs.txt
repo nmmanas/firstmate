@@ -1,0 +1,3 @@
+  [t1] Bearings - fleet board · Lavish - http://127.0.0.1:4387/session/5e03a50bcc8f67ce
+  [t2] 127.0.0.1:4387/artifact/5e03a50bcc8f67ce/bearings-board-reports/ba0352d483d8350e.html - http://127.0.0.1:4387/artifact/5e03a50bcc8f67ce/bearings-board-reports/ba0352d483d8350e.html
+→ [t3] feat: link URLs and preview markdown reports on the bearings board by nmmanas · Pull Request #6175 · kunchenguid/firstmate · GitHub - https://github.com/kunchenguid/firstmate/pull/6175

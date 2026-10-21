@@ -1,0 +1,29 @@
+## rebuild 2: report edited, missing.md now exists
+board: /var/folders/m7/flsdr61n7rb4vgt6hv5_f9t80000gp/T//fm-lab.uCG5Az/.lavish/bearings-board.html
+session:
+session: live
+bound: lavish-5e03a50bcc8f67ce
+already-armed: lavish-5e03a50bcc8f67ce
+rc=0
+78c6bf058e044411.html
+ba0352d483d8350e.html
+.
+..
+bearings-board-reports
+bearings-board.html
+Demo report v2 EDITED
+## rebuild 3: both reports deleted
+board: /var/folders/m7/flsdr61n7rb4vgt6hv5_f9t80000gp/T//fm-lab.uCG5Az/.lavish/bearings-board.html
+session:
+session: live
+bound: lavish-5e03a50bcc8f67ce
+already-armed: lavish-5e03a50bcc8f67ce
+rc=0
+total 0
+drwx------@ 2 manas  staff   64 Oct 22 00:30 .
+drwx------@ 4 manas  staff  128 Oct 22 00:30 ..
+.
+..
+bearings-board-reports
+bearings-board.html
+{}
