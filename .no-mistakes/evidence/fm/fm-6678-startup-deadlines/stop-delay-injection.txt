@@ -1,0 +1,6 @@
+=== injected 12s hook-startup delay: base-stop
+not ok - healthy owner never reached the reset boundary
+rc=1 secs=9
+=== injected 12s hook-startup delay: fix-stop
+ok - auto-arm: owner-mutex contention preserves successor episode state
+rc=0 secs=13

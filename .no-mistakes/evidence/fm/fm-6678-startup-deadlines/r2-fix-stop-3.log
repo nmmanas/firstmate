@@ -1,0 +1,9 @@
+run 1 PASS 6s
+run 2 PASS 9s
+run 3 PASS 8s
+run 4 PASS 10s
+run 5 PASS 10s
+run 6 PASS 10s
+run 7 PASS 8s
+run 8 PASS 8s
+tests/.loop-fix-stop.sh load=0 pass=8 fail=0 of 8

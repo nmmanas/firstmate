@@ -1,0 +1,11 @@
+start: 10:18  up 13 days, 21:16, 3 users, load averages: 14.14 33.90 44.93
+end: 10:25  up 13 days, 21:23, 3 users, load averages: 136.73 114.04 82.51
+/tmp/fm6678-round.sh: line 18: 42134 Terminated: 15          bash /tmp/fm6678-load.sh "$burners" "$forkers" 3000 > /dev/null 2>&1
+r3 base-queue: pass=0 fail=24 maxsecs=22
+   run 1 FAIL rc=1 15s: not ok - watcher did not exit for first signal
+   run 2 FAIL rc=1 19s: not ok - watcher did not exit for first signal
+   run 3 FAIL rc=1 20s: not ok - watcher did not exit for first signal
+   run 4 FAIL rc=1 20s: not ok - watcher did not exit for first signal
+r3 fix-queue: pass=24 fail=0 maxsecs=84
+r3 base-stop: pass=24 fail=0 maxsecs=19
+r3 fix-stop: pass=24 fail=0 maxsecs=19

@@ -1,0 +1,11 @@
+start: 10:07  up 13 days, 21:05, 3 users, load averages: 37.77 42.64 42.67
+end: 10:13  up 13 days, 21:12, 3 users, load averages: 94.96 79.08 60.96
+/tmp/fm6678-round.sh: line 18: 39487 Terminated: 15          bash /tmp/fm6678-load.sh "$burners" "$forkers" 3000 > /dev/null 2>&1
+r2 base-queue: pass=0 fail=24 maxsecs=29
+   run 1 FAIL rc=1 23s: 
+   run 2 FAIL rc=1 19s: 
+   run 3 FAIL rc=1 19s: 
+   run 4 FAIL rc=1 17s: 
+r2 fix-queue: pass=24 fail=0 maxsecs=58
+r2 base-stop: pass=24 fail=0 maxsecs=11
+r2 fix-stop: pass=24 fail=0 maxsecs=12

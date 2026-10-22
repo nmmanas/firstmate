@@ -1,0 +1,7 @@
+run 1 FAIL rc=1 15s: not ok - watcher did not exit for first signal
+run 2 FAIL rc=1 19s: not ok - watcher did not exit for first signal
+run 3 FAIL rc=1 20s: not ok - watcher did not exit for first signal
+run 4 FAIL rc=1 20s: not ok - watcher did not exit for first signal
+run 5 FAIL rc=1 22s: not ok - watcher did not exit for first signal
+run 6 FAIL rc=1 18s: not ok - watcher did not exit for first signal
+tests/.loop-base-queue.sh load=0 pass=0 fail=6 of 6

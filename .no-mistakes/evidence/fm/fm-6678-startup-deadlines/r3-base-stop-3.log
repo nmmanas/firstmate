@@ -1,0 +1,7 @@
+run 1 PASS 10s
+run 2 PASS 15s
+run 3 PASS 18s
+run 4 PASS 17s
+run 5 PASS 18s
+run 6 PASS 12s
+tests/.loop-base-stop.sh load=0 pass=6 fail=0 of 6

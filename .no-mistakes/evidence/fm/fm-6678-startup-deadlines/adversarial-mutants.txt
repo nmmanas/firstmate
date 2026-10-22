@@ -1,0 +1,19 @@
+=== tests/.mut-q1-stalled-watcher.sh
+wait_for_exit: owned pid 95903 exceeded 150 polls; sending TERM
+not ok - watcher did not exit for second signal
+rc=1 secs=39
+=== tests/.mut-s1-never-boundary.sh
+not ok - healthy owner never reached the reset boundary
+rc=1 secs=110
+=== tests/.mut-s2-early-exit.sh
+not ok - healthy owner exited with status 0 before the reset boundary: 
+rc=1 secs=2
+=== tests/.mut-s3-reset-not-contended.sh
+not ok - contended reset deleted the block budget
+rc=1 secs=1
+=== tests/.mut-h-helper.sh
+wait_for_watcher_lock: owned pid 30275 never held its singleton lock in 20 polls
+wait_for_exit: owned pid 30275 exceeded 0 polls; sending TERM
+30275 90338 S    sleep 1000
+H1 never-locking pid: rc=1 secs=5 alive_after=no
+H2 already-exited pid: rc=0 secs=0
